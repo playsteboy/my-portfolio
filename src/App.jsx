@@ -13,11 +13,11 @@ function App() {
     <main className='bg-[#0D0C1D] min-h-screen flex flex-col'>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
-        <Route path='/skills' element={<Skills/>}></Route>
-        <Route path='/projects' element={<Projects/>}></Route>
-        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/my-portfolio/' element={<Home/>}></Route>
+        <Route path='/my-portfolio/about' element={<About/>}></Route>
+        <Route path='/my-portfolio/skills' element={<Skills/>}></Route>
+        <Route path='/my-portfolio/projects' element={<Projects/>}></Route>
+        <Route path='/my-portfolio/contact' element={<Contact/>}></Route>
       </Routes>
     </main>
   )

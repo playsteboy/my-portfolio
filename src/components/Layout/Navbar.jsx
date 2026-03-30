@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import Button from "../UI/Button"
 export default function Navbar(){
-    const links = ["/","/about","/skills","/projects","/contact"]
+    const links = ["/my-portfolio/","/my-portfolio/about","/my-portfolio/skills","/my-portfolio/projects","/my-portfolio/contact"]
     const names = ["Home","About","Skills","Projects","Contact"]
     return (
         <section className="text-[#F0F0F0] flex justify-between items-center w-full bg-[#1A1A2E] shadow-lg">
